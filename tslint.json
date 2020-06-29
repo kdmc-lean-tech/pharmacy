@@ -142,6 +142,15 @@
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true
   },
+  "whitespace": [
+   true,
+   "check-branch",
+   "check-module",
+   "check-separator",
+   "check-decl",
+   "check-operator",
+   "check-rest-spread"
+  ],
   "rulesDirectory": [
     "codelyzer"
   ]

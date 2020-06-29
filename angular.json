@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pharmacy"
+    }
+  },
+  "defaultProject": "pharmacy",
+  "cli": {
+    "analytics": "89e40dc4-2acc-46d5-8543-ee48ca5b7936"
+  }
 }
