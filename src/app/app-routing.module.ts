@@ -7,6 +7,11 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./layouts/main-layout/main-layout.module')
       .then(m => m.MainLayoutModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./layouts/simple-layout/simple-layout.module')
+      .then(m => m.SimpleLayoutModule)
   }
 ];
 

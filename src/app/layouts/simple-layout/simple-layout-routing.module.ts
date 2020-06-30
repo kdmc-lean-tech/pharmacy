@@ -10,7 +10,7 @@ const routes: Routes = [
     path: '',
     component: SimpleLayoutComponent,
     children: [
-      { path: 'login', component: LoginComponent, canActivate: [AuthGuard] }
+      { path: '', component: LoginComponent, canActivate: [AuthGuard] }
     ]
   }
 ];
