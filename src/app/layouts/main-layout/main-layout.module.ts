@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MainLayoutComponent } from './main-layout.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MainLayoutRoutingModule } from './main-layout-routing.module';
+import { SharedModule } from '../../shared/shared.module';
 
 
 
@@ -10,7 +11,8 @@ import { MainLayoutRoutingModule } from './main-layout-routing.module';
   declarations: [MainLayoutComponent, NavbarComponent],
   imports: [
     CommonModule,
-    MainLayoutRoutingModule
+    MainLayoutRoutingModule,
+    SharedModule
   ]
 })
 export class MainLayoutModule { }

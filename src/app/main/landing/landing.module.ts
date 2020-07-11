@@ -7,14 +7,15 @@ import { HeadquartersComponent } from './components/headquarters/headquarters.co
 import { LandingComponent } from './landing.component';
 import { LandingRoutingModule } from './landing-routing.module';
 import { PostsComponent } from './components/posts/posts.component';
-
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
   declarations: [ContactComponent, ServicesComponent, AboutUsComponent, HeadquartersComponent, LandingComponent, PostsComponent],
   imports: [
     CommonModule,
-    LandingRoutingModule
+    LandingRoutingModule,
+    SharedModule
   ]
 })
 export class LandingModule { }
